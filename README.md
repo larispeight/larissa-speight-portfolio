@@ -11,3 +11,8 @@ Check out my work live here:
 ## Contact
 - Email: lari.speight@gmail.com 
 - GitHub: [github.com/larispeight](https://github.com/larispeight)
+
+---
+
+## Inspiration
+- [Moodboard](assets/images/port.png) – cozy, modern, floral aesthetic
