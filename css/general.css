@@ -1,4 +1,4 @@
-/* SANSATION FONT INSTALLATION */
+/* sensation FONT INSTALLATION */
 /* Regular */
 @font-face {
     font-family: 'Sansation';
@@ -56,4 +56,38 @@ h1, h2 {
 
 p {
     font-weight: 400;
+}
+
+/* menu-bar */
+div.menu-bar {
+    border:purple 1px solid; /*DEBUG ONLY */
+}
+
+div.menu-bar button {
+    border:gray 1px solid; /*DEBUG ONLY */
+}
+/* footer */
+div.footer-container {
+    border:purple 1px solid; /*DEBUG ONLY */
+}
+
+div.first-row {
+    border:gray 1px solid; /*DEBUG ONLY */
+}
+div.first-row p {
+    border:green 1px solid;/*DEBUG ONLY */
+}
+
+div.second-row {
+    border:gray 1px solid; /*DEBUG ONLY */
+}
+div.second-row p {
+    border:green 1px solid;/*DEBUG ONLY */
+}
+
+div.last-row {
+    border:gray 1px solid; /*DEBUG ONLY */
+}
+div.last-row p {
+    border:green 1px solid;/*DEBUG ONLY */
 }

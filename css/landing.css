@@ -1,0 +1,98 @@
+/* hero */
+div.hero-card{
+    border:1px solid purple; /*DEBUG ONLY */
+}
+
+div.left-side-hero{
+    border: grey solid 1px;  /*DEBUG ONLY */
+}
+h1.hero-title {
+    border:1px solid green; /*DEBUG ONLY */
+}
+
+p.hero-subtitle {
+    border:1px solid green; /*DEBUG ONLY */
+}
+
+button.red-click {
+    border:1px solid green; /*DEBUG ONLY */
+}
+
+div.profile-picture {
+    border:1px solid gray; /*DEBUG ONLY */
+    height: 450px;
+    width: 300px;
+}
+
+/* container - 1 */
+div.container-one {
+    border:1px solid red; /*DEBUG ONLY */
+}
+
+div.cards-container {
+    border:1px solid purple; /*DEBUG ONLY */
+}
+
+div.card-one {
+    border:1px solid gray; /*DEBUG ONLY */
+}
+div.card-one div{
+    border:1px solid green; /*DEBUG ONLY */
+    height: 100px;
+    width: 70px;
+}
+div.card-one h3{
+    border:1px solid green; /*DEBUG ONLY */
+}
+div.card-one p{
+    border:1px solid green; /*DEBUG ONLY */
+}
+
+
+div.card-two {
+    border:1px solid gray; /*DEBUG ONLY */
+}
+div.card-two div{
+    border:1px solid green; /*DEBUG ONLY */
+    height: 100px;
+    width: 70px;
+}
+div.card-two h3{
+    border:1px solid green; /*DEBUG ONLY */
+}
+div.card-two p{
+    border:1px solid green; /*DEBUG ONLY */
+}
+
+
+div.card-three {
+    border:1px solid gray; /*DEBUG ONLY */
+}
+div.card-three div{
+    border:1px solid green; /*DEBUG ONLY */
+    height: 100px;
+    width: 70px;
+}
+div.card-three h3{
+    border:1px solid green; /*DEBUG ONLY */
+}
+div.card-three p{
+    border:1px solid green; /*DEBUG ONLY */
+}
+
+/* container - 2 */
+div.container-two {
+    border:1px solid red;/*DEBUG ONLY */
+}
+
+div.container-explore{
+    border:1px solid purple; /*DEBUG ONLY */
+}
+
+h2.CTA-explore {
+    border:1px solid gray; /*DEBUG ONLY */
+}
+
+p.CTA-subtitle {
+    border:1px solid gray; /*DEBUG ONLY */
+}
