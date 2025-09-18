@@ -105,7 +105,7 @@ div.menu-bar button {
     color: #58524B;
     transition: color 0.2s ease;
 }
-/* pseudoclasses */
+    /* pseudoclasses */
 div.menu-bar button:hover {
     border:#F2C6B0 solid 1.5px;
     transition: color 0.2s ease;
@@ -119,26 +119,96 @@ div.menu-bar button:active {
 
 /* footer */
 div.footer-container {
-    border:purple 1px solid; /*DEBUG ONLY */
+    /* border:purple 1px solid; DEBUG ONLY */
+    width: 100%;
+    max-width: 1024px;
+    margin: auto;
+    margin-top: 60px;
+    display:flex;
+    flex-direction: column;
 }
 
 div.first-row {
-    border:gray 1px solid; /*DEBUG ONLY */
+    /* border:gray 1px solid; DEBUG ONLY */
+    /* flex:1; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 div.first-row p {
-    border:green 1px solid;/*DEBUG ONLY */
+    /* border:green 1px solid;DEBUG ONLY */
+    margin: 5px 0px;
+    font-size: clamp(0.75rem, 1vw, 0.875rem);
+    font-weight: 300;
+    color: #58524B;
 }
 
 div.second-row {
-    border:gray 1px solid; /*DEBUG ONLY */
+    /* border:gray 1px solid; DEBUG ONLY */
+    /* flex:1; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 div.second-row p {
-    border:green 1px solid;/*DEBUG ONLY */
+    /* border:green 1px solid;DEBUG ONLY */
+    font-size: clamp(0.75rem, 1vw, 0.875rem);
+    font-weight: 300;
+    margin: 5px 0px;
+    color: #58524B;
 }
 
 div.last-row {
-    border:gray 1px solid; /*DEBUG ONLY */
+    /* border:gray 1px solid; DEBUG ONLY */
+    /* flex:1; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 div.last-row p {
-    border:green 1px solid;/*DEBUG ONLY */
+    /* border:green 1px solid;DEBUG ONLY */
+    font-size: clamp(0.75rem, 1vw, 0.875rem);
+    font-weight: 300;
+    margin: 5px 0px;
+    color: #58524B;
+}
+
+div.footer-container a{
+    color:#58524B;
+    font-size: clamp(0.75rem, 1vw, 0.875rem);
+    font-weight: 300;
+    text-decoration: none;
+    transition: color 0.2s ease;
+}
+
+    /* pseudo-element */
+div.footer-container a:hover{
+    color: #F2C6B0;
+    transition: color 0.2s ease;
+}
+
+
+    /* @media */
+@media (max-width: 480px){
+div.menu-bar {
+    justify-content: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+
+  };
+}
+@media (max-width:600px){
+    div.first-row,
+  div.second-row,
+  div.last-row {
+    flex-direction: column;
+    gap: 20px;
+  };
+}
+@media (max-width: 600px){
+  div.first-row p,
+  div.second-row p,
+  div.last-row p {
+    text-align: center;
+  }
 }
