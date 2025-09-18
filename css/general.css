@@ -50,22 +50,60 @@ body {
     font-family: 'Sansation', sans-serif;
 }
 
-h1, h2 {
+h1 {
+    font-size: clamp(2rem, 5vw + 1rem, 3.5rem);
     font-weight: 700;
+}
+h2 {
+    font-size: clamp(1.75rem, 4vw + 0.5rem, 2.75rem);
+    font-weight: 600;
+}
+h3 {
+    font-size: clamp(1.5rem, 3vw + 0.5rem, 2rem);
+    font-weight: 600;
 }
 
 p {
     font-weight: 400;
+    font-size: clamp(1rem, 2vw + 0.25rem, 1.25rem); 
+}
+
+button {
+    font-size: clamp(0.875rem,1.5vw+0.25rem,1rem);
+    font-weight: 500;
 }
 
 /* menu-bar */
 div.menu-bar {
-    border:purple 1px solid; /*DEBUG ONLY */
+    /* border:purple 1px solid; DEBUG ONLY */
+    width: 100%;
+    max-width: 1024px;
+    height:100%;
+    max-height: 40px;
+    margin: auto;
+    margin-top: 30px;
+    padding-top: 7.5px;
+    padding-bottom: 7.5px;
+    background-color: #C79DA3;
+    border-radius: 100px;
+    display:flex;
+    justify-content: space-evenly;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 div.menu-bar button {
-    border:gray 1px solid; /*DEBUG ONLY */
+    /* border:gray 1px solid; DEBUG ONLY */ 
+    border:none;
+    background-color: #FDF6F0;
+    border-radius: 100px;
+    flex:1;
+    max-width: 200px;
+    height: 25px;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    color:#58524B;
 }
+
+
 /* footer */
 div.footer-container {
     border:purple 1px solid; /*DEBUG ONLY */
