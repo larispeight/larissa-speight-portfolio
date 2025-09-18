@@ -79,16 +79,17 @@ div.menu-bar {
     width: 100%;
     max-width: 1024px;
     height:100%;
-    max-height: 40px;
+    /* max-height: 40px; */
     margin: auto;
     margin-top: 30px;
-    padding-top: 7.5px;
-    padding-bottom: 7.5px;
+    padding: 7.5px 15px;
     background-color: #C79DA3;
     border-radius: 100px;
     display:flex;
+    flex-wrap: wrap;
     justify-content: space-evenly;
     box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    gap: 10px;
 }
 
 div.menu-bar button {
@@ -96,19 +97,23 @@ div.menu-bar button {
     border:none;
     background-color: #FDF6F0;
     border-radius: 100px;
-    flex:1;
+    flex:1 1 150px;
+    min-width: 130px;
     max-width: 200px;
-    height: 25px;
+    height: clamp(25px, 2vw, 40px);
     box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
-    color:#58524B;
+    color: #58524B;
+    transition: color 0.2s ease;
 }
 /* pseudoclasses */
 div.menu-bar button:hover {
     border:#F2C6B0 solid 1.5px;
+    transition: color 0.2s ease;
 }
 div.menu-bar button:active {
     background-color:#F2C6B0;
     transform: scale(0.99);
+    transition: color 0.2s ease;
 }
 
 
