@@ -102,6 +102,14 @@ div.menu-bar button {
     box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
     color:#58524B;
 }
+/* pseudoclasses */
+div.menu-bar button:hover {
+    border:#F2C6B0 solid 1.5px;
+}
+div.menu-bar button:active {
+    background-color:#F2C6B0;
+    transform: scale(0.99);
+}
 
 
 /* footer */
