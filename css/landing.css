@@ -1,6 +1,6 @@
 /* hero */
 div.hero-card{
-    border:1px solid purple; /*DEBUG ONLY */
+    /* border:1px solid purple; DEBUG ONLY */
     width: 100%;
     max-width: 1024px;
     height:100%;
@@ -8,17 +8,19 @@ div.hero-card{
     margin-top: 120px;
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
+    gap:15px;
 }
 
 div.left-side-hero{
-    border: grey solid 1px;  /*DEBUG ONLY */
+    /* border: grey solid 1px;  */
     flex:1 0 0;
     display: flex;
     flex-direction: column;
 }
 
 h1.hero-title {
-    border:1px solid green; /*DEBUG ONLY */
+    /* border:1px solid green; DEBUG ONLY */
     font-size: clamp(2.5rem, 6vw, 4rem);
     font-weight: 700;
     width: 100%;
@@ -32,11 +34,11 @@ h1.hero-title {
 }
 
 p.hero-subtitle {
-    border:1px solid green; /*DEBUG ONLY */
+    /* border:1px solid green; DEBUG ONLY */
     display: block;
     flex:0;
     margin:0;
-    margin-top:30px;
+    margin-top:15px;
     align-content: center;
     color: #58524B;
     font-weight: 300;
@@ -45,7 +47,7 @@ p.hero-subtitle {
 }
 
 div.buttons{
-    border:solid pink 1px; /*debug only*/
+    /* border:solid pink 1px; debug only */
     display: flex;
     flex:1;
     margin:0;
@@ -73,21 +75,38 @@ button.red-click {
 }
 
 div.profile-picture {
-    border:1px solid gray; /*DEBUG ONLY */
-    height: 450px;
-    width: 400px;
+    /* border:1px solid gray; DEBUG ONLY */
+    border: 15px solid #D9B87D;
+    height: 340px;
+    width: 300px;
     flex: 0 1 auto;
+    border-radius: 200px 100px 200px 0px;
+    overflow: hidden;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+.profile-picture img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    transition: transform 0.3s ease;
 }
 
 /* pseudo-class */
 button.red-click:hover {
-    border:#D9B87D solid 1.5px;
+    /* border:#D9B87D solid 1.5px; */
     transition: color 0.2s ease;
+    transform:scale(1.01);
+
 }
 button.red-click:active {
     background-color:#D9B87D;
     transform: scale(0.99);
     transition: color 0.2s ease;
+}
+
+.profile-picture img:hover {
+    transform:scale(1.01);
 }
 
 /* @media */
