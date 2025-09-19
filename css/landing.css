@@ -306,17 +306,58 @@ div.card-three:hover {
 }
 /* container - 2 */
 div.container-two {
-    border:1px solid red;/*DEBUG ONLY */
+    /* border:1px solid red; */
+    margin:auto;
+    position: relative;
+    padding-top:1px;
+    top:-100px;
+    background-color: #FDF6F0;
+    border-radius:100px 100px 0px 0px;
+    box-shadow: 0 -3px 8px rgba(0,0,0,0.1);
+    padding-bottom: 80px;
 }
 
 div.container-explore{
-    border:1px solid purple; /*DEBUG ONLY */
+    /* border:1px solid purple;  */
+    /* width: 100%; */
+    max-width: 1024px;
+    height:100%;
+    margin:auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-top: 60px;
+    padding-left: 30px;
+    padding-right: 30px;
 }
 
 h2.CTA-explore {
-    border:1px solid gray; /*DEBUG ONLY */
+    /* border:1px solid gray; DEBUG ONLY */
+    text-align: center;
+    display: block;
+    color: #C79DA3;
+    margin:0;
+    margin-bottom: 15px;
+    font-weight: 700;
+    font-size: clamp(2rem, 5vw, 3rem);
+    line-height: 1.2;
+    flex:1;
 }
 
 p.CTA-subtitle {
-    border:1px solid gray; /*DEBUG ONLY */
+    /* border:1px solid gray; DEBUG ONLY */
+    text-align: center;
+    margin:0;
+    margin-bottom: 30px;
+    font-weight: 300;
+    font-size: clamp(1rem, 2.5vw, 1.25rem);
+    line-height: 1.5;
+    color: #58524B;
+    display: block;
+    flex:1;
+}
+div.explore-buttons{
+    /* border:1px pink solid; */
+    display: flex;
+    justify-content: space-around;
 }
