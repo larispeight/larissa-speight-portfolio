@@ -107,8 +107,9 @@ div.menu-bar button {
 }
     /* pseudoclasses */
 div.menu-bar button:hover {
-    border:#F2C6B0 solid 1.5px;
+    /* border:#F2C6B0 solid 1.5px; */
     transition: color 0.2s ease;
+    transform:scale(1.01);
 }
 div.menu-bar button:active {
     background-color:#F2C6B0;
