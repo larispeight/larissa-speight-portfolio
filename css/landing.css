@@ -110,6 +110,15 @@ button.red-click:active {
 }
 
 /* @media */
+@media (max-width: 600px){
+    div.hero-card{
+        flex-direction: column;
+        align-items: center;
+    }
+    h1.hero-title, p.hero-subtitle{
+        text-align: center;
+    }
+}
 
 /* container - 1 */
 div.container-one {
