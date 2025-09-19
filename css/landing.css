@@ -122,11 +122,12 @@ button.red-click:active {
 
 /* container - 1 */
 div.container-one {
-    border:1px solid red; /*DEBUG ONLY */
+    /* border:1px solid red; DEBUG ONLY */
     margin-top:120px;
     background-color: #C79DA3;
     border-radius: 100px 100px 0px 0px;
     padding:60px;
+    box-shadow: 0 -3px 8px rgba(0,0,0,0.1); 
 }
 
 div.cards-container {
@@ -137,7 +138,7 @@ div.cards-container {
     margin:auto;
     display: flex;
     flex-wrap: wrap;
-    margin-bottom: 60px;
+    margin-bottom: 100px;
     gap: 25px;
     justify-content: space-around;
 }
