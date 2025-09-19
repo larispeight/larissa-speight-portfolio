@@ -32,6 +32,7 @@ h1.hero-title {
     margin:0;
     align-content: center;
     color:#C79DA3;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.1);
 }
 
 p.hero-subtitle {
@@ -342,6 +343,7 @@ h2.CTA-explore {
     font-size: clamp(2rem, 5vw, 3rem);
     line-height: 1.2;
     flex:1;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.1);
 }
 
 p.CTA-subtitle {
