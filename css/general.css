@@ -127,7 +127,6 @@ div.footer-container {
     width: 100%;
     max-width: 1024px;
     margin: auto;
-    margin-top: 60px;
     display:flex;
     flex-direction: column;
 }
