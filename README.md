@@ -15,4 +15,4 @@ Check out my work live here:
 ---
 
 ## Inspiration
-- [Moodboard](assets/images/port.png)
+[Moodboard](assets/images/port.png)
