@@ -1,0 +1,93 @@
+/* container - 2 */
+section.container-two {
+    /* border:1px solid red; */
+    margin:auto;
+    /* position: relative; */
+    /* top:-100px; */
+    background-color: #C79DA3;
+    border-radius:100px 100px 0px 0px;
+    box-shadow: 0 -4px 3px -3px rgba(0,0,0,0.1);
+    padding-bottom: 80px;
+}
+
+div.container-explore{
+    /* border:1px solid purple;  */
+    /* width: 100%; */
+    max-width: 1024px;
+    height:100%;
+    margin:auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-top: 60px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+h2.CTA-explore {
+    /* border:1px solid gray; DEBUG ONLY */
+    text-align: center;
+    display: block;
+    color: #FDF6F0;
+    /* margin:0; */
+    margin-bottom: 15px;
+    font-weight: 700;
+    font-size: clamp(2rem, 5vw, 3rem);
+    line-height: 1.2;
+    flex:1;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.1);
+}
+
+p.CTA-subtitle {
+    /* border:1px solid gray; DEBUG ONLY */
+    text-align: center;
+    margin:0;
+    margin-bottom: 30px;
+    font-weight: 300;
+    font-size: clamp(1rem, 2.5vw, 1.25rem);
+    line-height: 1.5;
+    color: #FDF6F0;
+    display: block;
+    flex:1;
+}
+div.explore-buttons{
+    /* border:1px pink solid; */
+    display: flex;
+    justify-content: space-around;
+}
+
+a.red-click {
+    /* border:1px solid green; DEBUG ONLY */
+    border:none;
+    background-color: #B76E60;
+    border-radius: 100px;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    color: #FDF6F0;
+    font-weight: 300;
+    font-size: clamp(0.9rem, 1.5vw, 1.1rem);
+    line-height: 1.2;
+    transition: color 0.2s ease;
+    flex:0 1 1;
+    height: 40px;
+    width: 200px;
+    text-decoration: none;
+    text-align: center;
+    align-content: center;
+}
+
+/* pseudo-class */
+a.red-click:hover {
+    /* border:#D9B87D solid 1.5px; */
+    transition: color 0.2s ease;
+    transform:scale(1.01);
+}
+a.red-click:active {
+    background-color:#D9B87D;
+    transform: scale(0.99);
+    transition: color 0.2s ease;
+}
+
+/* footer */
+div.footer{
+    background-color: #C79DA3;
+}
