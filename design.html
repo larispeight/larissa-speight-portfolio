@@ -9,32 +9,109 @@
   <link rel="stylesheet" href="css/general.css">
 
   <!-- Landing page-specific CSS -->
-  <link rel="stylesheet" href="css/web.css">
+  <link rel="stylesheet" href="css/design.css">
 </head>
 <body>
-    <div class="menu-bar">
-        <button class="home-button">Home</button>
-        <button class="design-button">Graphic Design</button>
-        <button class="web-button">Web Development</button>
-    </div>
+  <header>
+    <nav class="menu-bar">
+      <a href="./index.html" class="home-button">Home</a>
+      <a href="./design.html" class="design-button">Graphic Design</a>
+      <a href="./web.html" class="web-button">Web Development</a>
+    </nav>
+  </header>
 
-<h1>Coming Soon</h1>
+<div class="container-one">
+    <h1 class="page-title">Featured Graphic Design Works</h1>
+    <p class="subtitle">I create visuals that are both cozy and modern. From invitations that mark special moments to social media posts that elevate brands, my designs combine creativity and clarity to engage audiences effectively.</p>
+    <button class="featured">Featured Projects</button>
+    <button class="other-projects">Other Projects</button>
+</div>
+
+<div class="featured-projects">
+    <div class="first-project">
+        <div class="gallery-container" id="gallery-one">
+            <div class="image-one"></div>
+            <div class="image-two"></div>
+            <div class="image-three"></div>
+        </div>
+        <div class="description">
+            <h2 class="description-two">A bit about this project</h2>
+            <p class="description-para">Something really cool, very nice</p>
+            <h3 class="description-three">Tools used</h3>
+            <ul>
+                <li>This</li>
+                <li>that</li>
+                <li>that other thing</li>
+            </ul>
+            <button class="description-button">Case Study</button>
+        </div>
+    </div>
+    <div class="first-project">
+        <div class="gallery-container" id="gallery-two">
+            <div class="image-one"></div>
+            <div class="image-two"></div>
+            <div class="image-three"></div>
+        </div>
+        <div class="description">
+            <h2 class="description-two">A bit about this project</h2>
+            <p class="description-para">Something really cool, very nice</p>
+            <h3 class="description-three">Tools used</h3>
+            <ul>
+                <li>This</li>
+                <li>that</li>
+                <li>that other thing</li>
+            </ul>
+            <button class="description-button">Case Study</button>
+        </div>
+    </div>
+    <div class="first-project">
+        <div class="gallery-container" id="gallery-three">
+            <div class="image-one"></div>
+            <div class="image-two"></div>
+            <div class="image-three"></div>
+        </div>
+        <div class="description">
+            <h2 class="description-two">A bit about this project</h2>
+            <p class="description-para">Something really cool, very nice</p>
+            <h3 class="description-three">Tools used</h3>
+            <ul>
+                <li>This</li>
+                <li>that</li>
+                <li>that other thing</li>
+            </ul>
+            <button class="description-button">Case Study</button>
+        </div>
+    </div>
+</div>
+
+    <section class="container-two">
+        <div class="container-explore">
+            <h2 class="CTA-explore">Explore my work</h2>
+            <p class="CTA-subtitle">From interactive websites to creative design pieces, meet my portfolio.</p>
+            <div class="explore-buttons">
+                <a href="./design.html" class="red-click design-button">Design</a>
+                <a href="./web.html" class="red-click web-button">Web Development</a>
+            </div>
+        </div>
+    </section>
+
+
     <div class="footer">
-        <div class="footer-container">
-            <div class="first-row">
+        <ul class="footer-container">
+            <li class="first-row">
                 <p id="email">Email: <a href="mailto:lari.speight@gmail.com">lari.speight@gmail.com</a></p>
                 <p id="github">GitHub: <a href="https://github.com/larispeight" target="_blank" rel="noopener noreferrer">github.com/larispeight</a></p>
-            </div>
-            <div class="second-row">
+            </li>
+            <li class="second-row">
                 <p id="home"><a href="./index.html">Home</a></p>
                 <p id="graphic-design"><a href="./design.html">Graphic Design</a></p>
                 <p id="web-dev"><a href="./web.html">Web Development</a></p>
-            </div>
-            <div class="last-row">
+            </li>
+            <li class="last-row">
                 <p id="rights-reserved">© 2025 Larissa Speight. All rights reserved.</p>
                 <p id="care">Crafted with care in HTML, CSS & JS.</p>
-            </div>
-        </div>
+            </li>
+        </ul>
     </div>
 
     <!-- js -->
