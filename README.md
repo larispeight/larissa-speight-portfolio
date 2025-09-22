@@ -15,4 +15,4 @@ Check out my work live here:
 ---
 
 ## Inspiration
-- [Moodboard](assets/images/port.png) – cozy, modern, floral aesthetic
+- [Moodboard](assets/images/port.png)
