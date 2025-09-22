@@ -128,8 +128,8 @@ nav.menu-bar a:active {
 
 /* footer */
 ul.footer-container {
-    /* border:purple 1px solid;  */
-    width: 100%;
+    /* border:purple 1px solid; */
+    /* width: 100%; */
     max-width: 1024px;
     margin: auto;
     display:flex;
