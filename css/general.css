@@ -46,6 +46,9 @@
     font-style: italic;
 }
 
+html{
+    scroll-behavior:smooth;
+}
 body {
     font-family: 'Sansation', sans-serif;
     padding-left:30px;
