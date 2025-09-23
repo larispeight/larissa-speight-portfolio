@@ -73,7 +73,7 @@ a.red-click {
     transition: color 0.2s ease;
     flex:0 1 1;
     height: 40px;
-    width: 200px;
+    width: 250px;
     text-decoration: none;
     text-align: center;
     align-content: center;
@@ -135,19 +135,20 @@ section.container-one {
 }
 
 div.cards-container {
-    /* border:1px solid purple; DEBUG ONLY */
+    /* border:1px solid purple; */
     width: 100%;
     max-width: 1024px;
     height:100%;
     margin:auto;
     display: flex;
     flex-wrap: wrap;
-    margin-bottom: 100px;
+    margin-bottom: 120px;
     gap: 25px;
     justify-content: space-around;
 }
 
 h2.cards-title{
+    /* border:grey 1px solid; */
     color: #FDF6F0;
     display: block;
     justify-content: center;
@@ -316,16 +317,6 @@ article.card-three:hover {
     transform:scale(1.01);
 }
 
-@media (max-width: 1160px){
-    div.cards-container  {
-        flex-direction: column;
-        align-content: center;
-    }
-    article.card-three,article.card-one, article.card-two {
-        flex:1;
-        max-width: 550px;
-    }
-}
 /* container - 2 */
 section.container-two {
     /* border:1px solid red; */
@@ -355,6 +346,7 @@ div.container-explore{
 
 h2.CTA-explore {
     /* border:1px solid gray; DEBUG ONLY */
+    width: 100%;
     text-align: center;
     display: block;
     color: #C79DA3;
@@ -370,6 +362,7 @@ h2.CTA-explore {
 p.CTA-subtitle {
     /* border:1px solid gray; DEBUG ONLY */
     text-align: center;
+    width: 100%;
     margin:0;
     margin-bottom: 30px;
     font-weight: 300;
@@ -382,5 +375,8 @@ p.CTA-subtitle {
 div.explore-buttons{
     /* border:1px pink solid; */
     display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    gap:15px;
     justify-content: space-around;
 }
