@@ -2,6 +2,11 @@
 nav.menu-bar{
     position: relative; 
     z-index: 10; 
+    background-color: #FDF6F0;
+}
+nav.menu-bar a{
+    background-color: #C79DA3;
+    color: #FDF6F0;
 }
 
 /* container - 1 */
@@ -121,6 +126,7 @@ article.first-project {
     flex-wrap: wrap;
     justify-content: space-evenly;
     align-content: center;
+    align-items: center;
 }
 
 .gallery-container {
@@ -233,6 +239,7 @@ article.second-project {
     flex-wrap: wrap;
     justify-content: space-evenly;
     align-content: center;
+    align-items: center;
 }
 
 article.third-project {
@@ -241,6 +248,7 @@ article.third-project {
     flex-wrap: wrap;
     justify-content: space-evenly;
     align-content: center;
+    align-items: center;
 }
 
 a.description-button {
@@ -374,7 +382,7 @@ a.red-click {
     transition: color 0.2s ease;
     flex:0 1 1;
     height: 40px;
-    width: 200px;
+    width: 250px;
     text-decoration: none;
     text-align: center;
     align-content: center;
