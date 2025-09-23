@@ -12,17 +12,87 @@
   <link rel="stylesheet" href="css/web.css">
 </head>
 <body>
-  <header>
-    <nav class="menu-bar">
+
+<header>
+    <nav class="menu-bar" role="navigation">
       <a href="./index.html" class="home-button">Home</a>
       <a href="./design.html" class="design-button">Graphic Design</a>
       <a href="./web.html" class="web-button">Web Development</a>
     </nav>
-  </header>
+</header>
 
-<h1>Coming Soon</h1>
+<main>
 
-    <div class="footer">
+<section class="container-one" id="top-scroll">
+    <div class="purple-box">
+        <h1 class="page-title">Featured Web Development Projects</h1>
+        <p class="subtitle">Develops interactive and responsive websites with modern, user-friendly interfaces. Focuses on HTML, CSS, JavaScript, and design integration to deliver engaging digital experiences.</p>
+        <div class="project-buttons">
+            <a href="#scroll-here" class="scroll-button">View Web Projects</a>
+            <a a href="https://github.com/larispeight" target="_blank" rel="noopener noreferrer"class="other-proj">Explore Github</a>
+        </div>
+    </div>
+</section>
+
+<section class="featured-projects" id="scroll-here">
+    <article class="first-project">
+        <div class="gallery-container" id="gallery-one">
+          <a href="https://larispeight.github.io/cozy-calculator/" target="_blank" rel="noopener noreferrer">
+            <img src="./assets/images/web-tab/calculator-ss.png">
+          </a>
+        </div>
+        <div class="description">
+            <h2 class="project-title">Cozy & Floral Calculator</h2>
+            <p class="description-para">Built a responsive calculator with a soft, inviting aesthetic. Implemented features including basic math functions, pastel color palette, glassmorphism, rounded edges, keyboard input, sound feedback, accessibility, display limits, night mode, and zoom controls.</p>
+            <h3 class="tools-title">Technology used</h3>
+            <ul class="tools-list">
+                <li>JavaScript</li>
+                <li>HTML & CSS</li>
+            </ul>
+            <a href="https://github.com/larispeight/cozy-calculator" class="description-button"target="_blank" rel="noopener noreferrer">Open at Github</a>
+        </div>
+    </article>
+    <article class="second-project">
+        <div class="gallery-container" id="gallery-two"></div>
+        <div class="description">
+            <h2 class="project-title">Coming Soon</h2>
+            <p class="description-para">Description</p>
+            <h3 class="tools-title">Technology used</h3>
+            <ul class="tools-list">
+                <li></li>
+                <li></li>
+            </ul>
+            <a href="#" class="description-button" target="_blank" rel="noopener noreferrer">Open at Github</a>
+        </div>
+    </article>
+    <article class="first-project">
+        <div class="gallery-container" id="gallery-one"></div>
+        <div class="description">
+            <h2 class="project-title">Coming Soon</h2>
+            <p class="description-para">Description</p>
+            <h3 class="tools-title">Technology used</h3>
+            <ul class="tools-list">
+                <li></li>
+                <li></li>
+            </ul>
+            <a href="#" class="description-button" target="_blank" rel="noopener noreferrer">Open at Github</a>
+        </div>
+    </article>
+</section>
+
+    <section class="container-two">
+        <div class="container-explore">
+            <h2 class="CTA-explore">Explore Portfolio</h2>
+            <p class="CTA-subtitle">Access projects demonstrating web development skills, responsive design, and interactive UI solutions.</p>
+            <div class="explore-buttons">
+                <a href="./design.html" class="red-click design-button">Graphic Design Portfolio</a>
+                <a href="#top-scroll" class="red-click web-button">Web Development Portfolio</a>
+            </div>
+        </div>
+    </section>
+</main>
+
+    <footer>
         <ul class="footer-container">
             <li class="first-row">
                 <p id="email">Email: <a href="mailto:lari.speight@gmail.com">lari.speight@gmail.com</a></p>
@@ -38,8 +108,7 @@
                 <p id="care">Crafted with care in HTML, CSS & JS.</p>
             </li>
         </ul>
-    </div>
-
+    </footer>
 
     <!-- js -->
     <script src="javascript/web.js"></script>
