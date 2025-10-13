@@ -4,8 +4,6 @@
 Hi! I’m **Larissa Speight**, a web developer and designer with a background in marketing.  
 I create clean, engaging websites and design pieces, focusing on **cozy and modern aesthetics**.
 
-Check out my work live here: 
-
 ---
 
 ## Contact
