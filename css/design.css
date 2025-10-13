@@ -55,7 +55,7 @@ p.subtitle {
     color:#FDF6F0;
     text-align: center;
     font-size: clamp(1.1rem, 2vw + 0.25rem, 1.25rem);
-    font-weight: 300; 
+    font-weight: 400; 
 }
 div.project-buttons {
     /* border:pink 1px solid; */
@@ -135,12 +135,14 @@ article.first-project {
   grid-template-rows: 1fr 1fr;     
   aspect-ratio: 1 / 1;             
   border: #D9B87D solid 10px;
+  background-color: #FDF6F0;
   border-radius: 25px;
   padding: 15px;
   gap: 5px;
   max-width: 500px;
   margin: auto;
   align-self: center;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 .gallery-container div {
