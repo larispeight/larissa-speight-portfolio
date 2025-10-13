@@ -249,6 +249,16 @@ li a:hover{
     transition: color 0.2s ease;
 }
 
+.hidden {
+  opacity: 0;
+  transform: translateY(50px);
+  transition: all 1s ease, transform 1s ease;
+}
+.show {
+  opacity: 1;
+  transform: translateY(0);
+}
+
     /* @media */
 @media (max-width: 480px){
 div.menu-bar {
